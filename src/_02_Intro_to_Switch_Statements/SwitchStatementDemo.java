@@ -22,27 +22,27 @@ public class SwitchStatementDemo {
 		
 		{
 			/*
-			 *  Remove the 'break;' statements and run it again.
-			 *  What did you notice? What does 'break;' do?
+			 *  Remove the ' ' statements and run it again.
+			 *  What did you notice? What does ' ' do?
 			 */
 			int x = new Random().nextInt(3);
 			switch(x) {
 			case 0: 
 				System.out.println("0");
-				break;
+				 
 			case 1: 
 				System.out.println("1");
-				break;
+				 
 			case 2: 
 				System.out.println("2");
-				break;
+				 
 			default: 
 				System.out.println("Something went wrong :(");
-				break;
+				 
 			}
 		}
 		
-		// Notice the break;
+		// Notice the breaks
 		// This only works when comparing one variable. 
 		// That variable cannot be a floating point value.
 		// Using objects with switch statements is very limited.
