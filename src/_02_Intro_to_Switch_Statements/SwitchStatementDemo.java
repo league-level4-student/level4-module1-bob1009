@@ -28,13 +28,13 @@ public class SwitchStatementDemo {
 			int x = new Random().nextInt(3);
 			switch(x) {
 			case 0: 
-				System.out.println("0");
+				System.out.println(0);
 				 
 			case 1: 
-				System.out.println("1");
+				System.out.println(1);
 				 
 			case 2: 
-				System.out.println("2");
+				System.out.println(2);
 				 
 			default: 
 				System.out.println("Something went wrong :(");
